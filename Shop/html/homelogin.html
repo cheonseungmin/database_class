@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 100px;
+        }
+
+        .goods {
+            text-align: center;
+        }
+
+        .btn {
+            border: 1px solid black;
+            margin-right: 20px;
+            padding: 5px;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <a href="homelogin.html">
+            <h1>Database System Shop</h1>
+        </a>
+    </center>
+    <div style="float: right">
+        <table>
+            <tr>
+                <td>
+                    <form method="post" action="/logout">
+                        <input type="submit" value="logout">
+                    </form>
+                </td>
+                <td>
+                    <form method="post" action="/delete">
+                        <input type="submit" value="회원탈퇴">
+                    </form>
+                </td>
+                <td>
+                    <form method="post" action="/bought">
+                        <input type="submit" value="구매내역">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div><br>
+    <hr>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <a href="clothes.html">
+                        <img src="../pictures/clothes.jpg">
+                        <div class="goods">clothes</div>
+                    </a>
+                </td>
+                <td>
+                    <a href="shoes.html">
+                        <img src="../pictures/shoes.jpg">
+                        <div class="goods">sheos</div>
+                    </a>
+                </td>
+                <td>
+                    <a href="food.html">
+                        <img src="../pictures/food.jpg">
+                        <div class="goods">food</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="car.html">
+                        <img src="../pictures/car.jpg">
+                        <div class="goods">car</div>
+                    </a>
+                </td>
+                <td>
+                    <a href="computer.html">
+                        <img src="../pictures/computer.jpg">
+                        <div class="goods">computer</div>
+                    </a>
+                </td>
+                <td>
+                    <a href="phone.html">
+                        <img src="../pictures/phone.jpg">
+                        <div class="goods">phone</div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </center><br>
+    <hr>
+    <br><br>
+</body>
+
+</html>

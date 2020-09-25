@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        td {
+            padding: 25px;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <center>
+        <a href="home.html">
+            <h1>Database System Shop</h1>
+        </a>
+    </center>
+    <br>
+    <hr><br>
+    <form method="post" action="/addmember">
+        <center>
+            <h2>회원가입</h2>
+            <table>
+                <tr>
+                   <td>아이디</td>
+                    <td>
+                        <input type="text" name="id">
+                    </td>
+                </tr>
+                <tr>
+                   <td>비밀번호</td>
+                    <td>
+                        <input type="text" name="password">
+                    </td>
+                </tr>
+                <tr>
+                   <td>이름</td>
+                    <td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+                <tr>
+                   <td>생년월일</td>
+                    <td>
+                        <input type="text"  name="birth">
+                    </td>
+                </tr>
+                <tr>
+                   <td>연락처</td>
+                    <td>
+                        <input type="text"  name="phone">
+                    </td>
+                </tr>
+                <tr>
+                   <td>주소</td>
+                    <td>
+                        <input type="text" name="address">
+                    </td>
+                </tr>
+                <tr style="text-align: center">
+                    <td colspan="2">
+                        <input type="submit" value="회원가입 완료">
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+
+</html>
